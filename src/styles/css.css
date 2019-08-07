@@ -11,8 +11,8 @@
 	src:url(TitilliumWeb-SemiBold.ttf);
 }
 @font-face{
-	font-family: HelveticaLTStd;
-	src:url();
+	font-family: TitilliumWeb-Light;
+	src:url(TitilliumWeb-Light.ttf);
 }
 @font-face{
 	font-family: HelveticaLTStd;
@@ -32,17 +32,30 @@ div{
   font-family: TitilliumWeb-Bold;
   font-size: 18px;
 }
+p{
+	margin-block-start:0;
+	margin-block-end:0;
+}
+/* reset css */
+/*  */
+body{
+	background: #000;
+}
 #wrap{
   width: 1440px;
   height: 6160px;
+	margin: auto;
+	background: #fff;
 }
+/* */
+/* header-section */
 #header{
 	background: #87509c;
   height: 596px;
 }
 .container{
   width: 1100px;
-  margin: auto;
+	margin: auto;
 }
 #header-top{
   width: 100%;
@@ -110,11 +123,17 @@ div{
 	margin: 0 165px 0 157px ;
 	text-align: initial !important;
 }
-.btn{
-	display: block;
+#big-button{
+	position: relative;
 	width: 293px;
 	height: 70px;
 	margin: 54px auto 145px auto;
+}
+.btn{
+
+	display: block;
+	width: 100%;
+	height: 100%;
 	font-family: TitilliumWeb-SemiBold;
 	font-size: 18px;
 	border: 0px;
@@ -122,3 +141,204 @@ div{
 	background: #eb7d4b;
 	color: #ffffff;
 }
+.btn-alpha-color{
+	position: absolute;
+	display: block;
+	width: 293px;
+	height: 4px;
+	bottom: 0;
+	background: #C86A40;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+/* */
+/* services */
+#services{
+	height: 747px;
+	background: #17c2a4;
+}
+.description-top{
+	position: relative;
+	height: 241px;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+}
+#services-title{
+	margin: 103px 0 27px 0;
+	font-size: 40px;
+	letter-spacing: 0.1em;
+}
+.underline{
+	position: absolute;
+	width: 87px;
+	height: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+.u-srv{
+	background: #14a58c;
+	top: 169px;
+}
+#services-detail{
+	margin: 0 249px;
+	font-family: TitilliumWeb-Regular;
+	font-size: 18px;
+	line-height: 26px;
+	letter-spacing: 0.02em;
+}
+.description-main{
+	background: grey;
+	margin-top: 50px;
+	color: #fff;
+}
+.content{
+	width: 260px;
+	height: 456px;
+	float: left;
+	text-align: center;
+	padding-right: 20px;
+}
+.content:last-child{
+	padding-right: 0;
+}
+.content-icon{
+	width: 260px;
+	height: 191px;
+}
+.content-name{
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: 0.02em;
+	margin-top: 19px;
+	margin-bottom: 12px;
+}
+.content-detail{
+	font-family: TitilliumWeb-Light;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	margin: 0 32px 125px 32px;
+}
+/* */
+/* team*/
+#team{
+	background: #e7f1f8;
+	height: 914px;
+}
+#team-title{
+	font-size: 41.29px;
+	color:  #3c4761;
+	letter-spacing: 0.1em;
+	margin-top: 101px;
+	margin-bottom: 29px;
+}
+.u-team{
+	top: 171px;
+	background: #c8d9e5;
+}
+#team-detail{
+	font-family: TitilliumWeb-Regular;
+	font-size: 18.58px;
+	color: #5d677b;
+	letter-spacing: 0.02em;
+}
+.team-member{
+	width: 260px;
+	margin-right: 20px;
+	float: left;
+	text-align: center;
+}
+.team-member:last-child{
+	margin-right: 0;
+}
+.member-icon{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #878787;
+	margin:6px auto 30px auto;
+}
+.member-name{
+	font-size: 24px;
+	letter-spacing: 0.02em;
+	color: #27283d;
+	text-transform: uppercase;
+}
+.member-position{
+	font-family: TitilliumWeb-Regular;
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	color: #30bae7;
+	margin: 1px 0 18px 0;
+}
+.member-detail{
+	font-family: TitilliumWeb-Light;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	color: #5d677b;
+	margin: 0 25px 29px 25px;
+}
+.member-contact{
+	height: 32px;
+	letter-spacing: -4px;
+	margin-bottom: 127px;
+}
+.member-contact a {
+	display: inline-block;
+	line-height: 0;
+}
+.member-contact-icon{
+	padding-right: 12px;
+}
+.member-contact-icon-last{
+	padding-right: 0;
+}
+/* end-team*/
+/* skill*/
+#skill{
+	height: 655px;
+	border-bottom: 2px dashed #dfe8ed;
+	background: #fff;
+}
+#skill-title{
+	font-size: 40px;
+	letter-spacing: 0.1em;
+	color: #3c4761;
+	margin: 101px 0 28px 0;
+}
+.u-skill{
+	top: 167px;
+	background: #dfe8ed;
+}
+.skill-detail{
+	font-family: TitilliumWeb-Regular;
+	font-size: 18px;
+	line-height: 26px;
+	letter-spacing: 0.02em;
+	color: #626a7d;
+	margin:0 265px ;
+}
+.skill-content{
+	width: 260px;
+	float: left;
+	padding-right: 20px;
+}
+.skill-content:last-child{
+	padding-right: 0;
+}
+.skill-contact-grap{
+	height: 215px;
+}
+.skill-content-detail{
+	font-size: 24px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #3c4761;
+	margin-bottom: 113px;
+}
+/* end skill*/
