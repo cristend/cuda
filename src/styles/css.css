@@ -123,14 +123,15 @@ body{
 	margin: 0 165px 0 157px ;
 	text-align: initial !important;
 }
-#big-button{
+.big-button{
 	position: relative;
 	width: 293px;
 	height: 70px;
-	margin: 54px auto 145px auto;
+}
+.btn-head{
+margin: 54px auto 145px auto;
 }
 .btn{
-
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -138,6 +139,8 @@ body{
 	font-size: 18px;
 	border: 0px;
 	border-radius: 4px;
+}
+.btn-head-color{
 	background: #eb7d4b;
 	color: #ffffff;
 }
@@ -147,9 +150,11 @@ body{
 	width: 293px;
 	height: 4px;
 	bottom: 0;
-	background: #C86A40;
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
+}
+.btn-head-alpha-color{
+	background: #C86A40;
 }
 /* */
 /* services */
@@ -304,7 +309,7 @@ body{
 	border-bottom: 2px dashed #dfe8ed;
 	background: #fff;
 }
-#skill-title{
+.skill-title{
 	font-size: 40px;
 	letter-spacing: 0.1em;
 	color: #3c4761;
@@ -342,3 +347,74 @@ body{
 	margin-bottom: 113px;
 }
 /* end skill*/
+/* portfolio*/
+#portfolio{
+	height: 1423px;
+	background: #ffdd99;
+}
+.container-out{
+	width: 1140px;
+	margin: auto;
+}
+.u-port{
+	top: 170px;
+	background: #e5c37f;
+}
+.description-main-port{
+	margin-top: 43px;
+	letter-spacing: -4px;
+	text-align: center;
+}
+.portfolio-categories{
+	display: inline-block;
+	width: 84px;
+	height: 38px;
+	background: #ebc985;
+	letter-spacing: 0;
+	margin-right: 10px;
+	margin-bottom: 62px;
+	line-height: 38px;
+}
+.portfolio-categories:first-child{
+	background: #fff;
+}
+.portfolio-categories:last-child{
+	margin-right: 0;
+}
+#portfolio-work-list{
+	overflow: hidden;
+}
+.portfolio-works{
+	float: left;
+	width: 541px;
+	height: 421px;
+	margin-right: 20px;
+}
+.portfolio-works-first{
+	margin-left: 9px;
+}
+.portfolio-works-last{
+	margin-right: 0;
+}
+.portfolio-works img{
+	width: 541px;
+	height: 311px;
+}
+.portfolio-work-detail{
+	font-family: TitilliumWeb-Regular;
+	font-size: 18px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	height: 27px;
+	margin: 18px 0 58px 0;
+}
+.btn-port{
+	margin: 18px auto 109px auto;
+}
+.btn-port-color{
+	background: #17c2a4;
+}
+.btn-port-alpha-color{
+	background: #14a58c;
+}
+/* end portfolio*/
