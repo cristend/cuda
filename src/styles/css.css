@@ -15,8 +15,8 @@
 	src:url(TitilliumWeb-Light.ttf);
 }
 @font-face{
-	font-family: HelveticaLTStd;
-	src:url();
+	font-family: TitilliumWeb-Italic;
+	src:url(TitilliumWeb-Italic.ttf);
 }
 *{
   margin: 0;
@@ -252,6 +252,7 @@ margin: 54px auto 145px auto;
 }
 .team-member{
 	width: 260px;
+	height: 623px;
 	margin-right: 20px;
 	float: left;
 	text-align: center;
@@ -418,3 +419,184 @@ margin: 54px auto 145px auto;
 	background: #14a58c;
 }
 /* end portfolio*/
+/* about*/
+#testimonial{
+	height: 892px;
+	background: #d74680;
+}
+.test-title{
+	color: #fff ;
+}
+.u-test{
+	top: 167px;
+	background: #b73c6d;
+}
+.test-detal{
+	color: #faecf1;
+}
+.description-main-test{
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+.testimonial-member{
+	width: 500px;
+	height: 313px;
+	float: left;
+}
+.testimonial-member-first{
+	padding-right: 88px;
+}
+.testimonial-member-last{
+	padding-right: 12px;
+}
+.testimonial-member-icon{
+	width: 96px;
+	height: 96px;
+	border-radius: 50%;
+	margin: 39px 47px 178px 1px;
+	background: #787878;
+	float: left;
+}
+.testimonial-member-detail{
+	font-family: TitilliumWeb-Italic;
+	font-size: 21px;
+	line-height: 31.2px;
+	letter-spacing: 0.02em;
+	color: #faecf1;
+}
+.testimonial-member-name{
+	font-size: 24px;
+	letter-spacing: 0.02em;
+	color: #fff;
+}
+.testimonial-member-position{
+	font-family: TitilliumWeb-Regular;
+	font-size: 18px;
+	letter-spacing: 0.02em;
+	color: #ffdd99;
+}
+/* end about*/
+/* contact*/
+#contact{
+	height: 818px;
+	background: #3c5499;
+	border-bottom: 1px dashed #344b8e;
+}
+.contact-title{
+	color: #fff;
+}
+.contact-detail{
+	color: #fff;
+}
+.u-contact{
+	top: 170px;
+	background: #273a71;
+}
+.description-main-contact{
+	padding: 0 120px;;
+}
+#form{
+	margin-top: 51px;
+}
+.form-left{
+	margin-right: 28px;
+}
+.form-info{
+	width: 414px;
+	height: 56px;
+	font-family: TitilliumWeb-Regular;
+	font-size: 18px;
+	border: 0px;
+	border-radius: 4px;
+	background: #273a71;
+}
+.first{
+	margin-right: 32px;
+}
+.wrap-label{
+	position: relative;
+	display: inline-block;
+}
+.first{
+	position: absolute;
+	top:15px;
+	left: 25px;
+}
+.first::after{
+	content: " *";
+	color: #ff4444;
+}
+.second{
+	position: absolute;
+	top:15px;
+	left: 25px;
+}
+.second::after{
+	content: " *";
+	color: #ff4444;
+}
+.name{
+	position: relative;
+}
+.name:focus + label{
+	display: none;
+}
+.email{
+	position: relative;
+}
+.email:focus + label{
+	display: none;
+}
+.warp-textarea{
+	position: relative;
+}
+textarea{
+	width: 860px;
+	height: 200px;
+	background: #273a71;
+	border: 0px;
+	border-radius: 4px;
+	margin: 27px 0 51px 0;
+}
+.third{
+	position: absolute;
+	left:25px;
+	top:42px;
+}
+.third::after{
+	content: " *";
+	color: #ff4444;
+}
+.textarea:focus + label{
+	display: none;
+}
+.btn-contact{
+	margin: 0 auto 114px auto;
+}
+.btn-contact-color{
+	font-family: TitilliumWeb-SemiBold;
+	font-size: 18px;
+	letter-spacing: 0.02em;
+	color: #fff;
+	background: #30bae7;
+}
+.btn-contact-alpha-color{
+	background: #299ec5;
+}
+/* end contact*/
+/* footer*/
+#footer{
+	height: 112px;
+	background: #344b8e;
+}
+#footer-detail{
+	text-align: center;
+	line-height: 112px;
+	font-family: TitilliumWeb-SemiBold;
+	font-size: 24px;
+	letter-spacing: 0.02em;
+}
+#footer-detail > p > span{
+	color: #30bae7;
+}
+/* end footer*/
