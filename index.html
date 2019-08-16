@@ -7,290 +7,316 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<div id="wrap">
+<div class="wrap">
+
   <!-- Header -->
-  <div id="header" >
+  <header class="header" >
     <div class="container">
-      <div id="header-top">
-        <div id="logo">
+
+      <div class="header-top">
+        <div class="logo">
           <a href="#"><img  src="build/images/logo.png" alt="#"></a>
         </div>
-        <div class="nav-bar">
-          <ul>
-            <a href="#"><li class="nav-bar-item home">home</li></a>
-            <a href="#"><li class="nav-bar-item about">about</li></a>
-            <a href="#"><li class="nav-bar-item work">work</li></a>
-            <a href="#"><li class="nav-bar-item blog">blog</li></a>
-            <a href="#"><li class="nav-bar-item contact">contact</li></a>
+        <nav class="nav-bar">
+          <ul class="nav-bar-list">
+            <a href="#"><li class="nav-bar-item">home</li></a>
+            <a href="#"><li class="nav-bar-item">about</li></a>
+            <a href="#"><li class="nav-bar-item">work</li></a>
+            <a href="#"><li class="nav-bar-item">blog</li></a>
+            <a href="#"><li class="nav-bar-item">contact</li></a>
+          </ul>
+        </nav>
+      </div>
+
+      <section class="header-detail">
+        <h2 class="header-detail-title"><span>Hi there! We are the new kids on the block</span>
+    and we build awesome websites and mobile apps.</h2>
+        <form>
+          <div class="big-button btn-head">
+            <input type="button" class="btn btn-head-color" value="WORK WITH US!">
+            <div class="btn-shadow btn-shadow-head-color"></div>
+          </div>
+        </form>
+      </section>
+
+    </div>
+  </header>
+
+  <!--End Header -->
+  <main>
+  <!-- Services -->
+    <section class="services" >
+      <div class="container">
+        <section class="description-top white-text">
+          <h2 class="section-title">SERVICES WE PROVIDE</h2>
+          <hr class="underline u-srv">
+          <p class="section-detail service-detail"><span>We are working with both individuals and businesses from all over the globe</span> to create awesome websites and applications.</p>
+        </section>
+        <section class="description-main white-text">
+          <ul class="grid">
+            <li class="content service-content content-media">
+              <div class="service-content-icon"><img class="content-icon" src="build/images/service1.png"></div>
+              <p class="content-title service-content-title">Branding</p>
+              <p class="content-detail service-content-detail">Lorem ipsum dolor sit amet,
+      consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+            </li>
+            <li class="content service-content content-media">
+              <div class="service-content-icon"><img  src="build/images/service2.png"></div>
+              <p class="content-title service-content-title">Design</p>
+              <p class="content-detail service-content-detail">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+            </li>
+            <li class="content service-content content-media">
+              <div class="service-content-icon"><img  src="build/images/service3.png"></div>
+              <p class="content-title service-content-title">Development</p>
+              <p class="content-detail service-content-detail">At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+            </li>
+            <li class="content service-content content-media">
+              <div class="service-content-icon"><img  src="build/images/service4.png"></div>
+              <p class="content-title service-content-title">ROCKET SCIENCE</p>
+              <p class="content-detail service-content-detail">Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </section>
+    <!--End Services -->
+    <!-- Team section -->
+    <section class="team">
+      <div class="container">
+        <div class="description-top">
+          <h2 class="section-title team-title">MEET OUR BEAUTIFUL TEAM</h2>
+          <hr class="underline u-team">
+          <p class="section-detail team-detail">We are a small team of designers and developers, who help brands with big ideas.</p>
+        </div>
+        <div class="description-main">
+          <ul class="grid">
+            <li class="content team-content content-media">
+              <img class="content-icon circle" src="build/images/cat.png" alt="a person">
+              <p class="content-title team-content-title">ANNE HATHAWAY</p>
+              <p class="content-position team-content-position">CEO / Marketing Guru</p>
+              <p class="content-detail team-content-detail">Lorem ipsum dolor sit amet,
+        consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+              <div class="member-contact">
+                <a href="#"><img class="member-contact-icon" src="build/images/fb.png"></a>
+                <a href="#"><img class="member-contact-icon" src="build/images/tweeter.png"></a>
+                <a href="#"><img class="member-contact-icon" src="build/images/linkin.png"></a>
+                <a href="#"><img class="member-contact-icon member-contact-icon-last" src="build/images/mail.png"></a>
+              </div>
+            </li>
+            <li class="content team-content content-media">
+              <img class="content-icon circle" src="build/images/cat.png" alt="a person">
+              <p class="content-title team-content-title">Kate Upton</p>
+              <p class="content-position team-content-position">Creative Director</p>
+              <p class="content-detail team-content-detail">Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
+              <div class="member-contact">
+                <a href="#"><img class="member-contact-icon" src="build/images/tweeter.png"></a>
+                <a href="#"><img class="member-contact-icon" src="build/images/linkin.png"></a>
+                <a href="#"><img class="member-contact-icon member-contact-icon-last" src="build/images/mail.png"></a>
+              </div>
+            </li>
+            <li class="content team-content content-media">
+              <img class="content-icon circle" src="build/images/cat.png" alt="a person">
+              <p class="content-title team-content-title">Olivia Wilde</p>
+              <p class="content-position team-content-position">Lead Designer</p>
+              <p class="content-detail team-content-detail">Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+              <div class="member-contact">
+                <a href="#"><img class="member-contact-icon" src="build/images/fb.png"></a>
+                <a href="#"><img class="member-contact-icon" src="build/images/tweeter.png"></a>
+                <a href="#"><img class="member-contact-icon" src="build/images/linkin.png"></a>
+                <a href="#"><img class="member-contact-icon member-contact-icon-last" src="build/images/mail.png"></a>
+              </div>
+            </li>
+            <li class="content team-content content-media">
+              <img class="content-icon circle" src="build/images/cat.png" alt="a person">
+              <p class="content-title team-content-title">Ashley Greene</p>
+              <p class="content-position team-content-position">SEO / Developer</p>
+              <p class="content-detail team-content-detail">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+              <div class="member-contact">
+                <a href="#"><img class="member-contact-icon" src="build/images/fb.png"></a>
+                <a href="#"><img class="member-contact-icon" src="build/images/tweeter.png"></a>
+                <a href="#"><img class="member-contact-icon member-contact-icon-last" src="build/images/mail.png"></a>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
-
-      <h2 id="header-detail"><span>Hi there! We are the new kids on the block</span>
-  and we build awesome websites and mobile apps.</h2>
-      <form>
-        <div class="big-button btn-head">
-          <input type="button" class="btn btn-head-color" value="WORK WITH US!">
-          <div class="btn-alpha-color btn-head-alpha-color"></div>
+    </section>
+    <!--End Team section -->
+    <!-- skill section-->
+    <div class="skill">
+      <div class="container">
+        <div class="description-top">
+          <h2 class="section-title skill-title" style="text-indent:0;">WE GOT SKILLS!</h2>
+          <div class="underline u-skill"></div>
+          <p class="section-detail skill-detail"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span> tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-      </form>
-    </div>
-  </div>
-
-  <!--End Header -->
-  <!-- Services -->
-  <div id="services" >
-    <div class="container">
-      <div class="description-top">
-        <h2 id="services-title">SERVICES WE PROVIDE</h2>
-        <div class="underline u-srv"></div>
-        <p id="services-detail">We are working with both individuals and businesses from all over the globe
-  to create awesome websites and applications.</p>
-      </div>
-      <div class="description-main">
-        <div class="content">
-          <div class="content-icon"><img  src="build/images/service1.png"></div>
-          <p class="content-name">Branding</p>
-          <p class="content-detail">Lorem ipsum dolor sit amet,
-  consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-        </div>
-        <div class="content">
-          <div class="content-icon"><img  src="build/images/service2.png"></div>
-          <p class="content-name">Design</p>
-          <p class="content-detail">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-        </div>
-        <div class="content">
-          <div class="content-icon"><img  src="build/images/service3.png"></div>
-          <p class="content-name">Development</p>
-          <p class="content-detail">At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
-        </div>
-        <div class="content">
-          <div class="content-icon"><img  src="build/images/service4.png"></div>
-          <p class="content-name">ROCKET SCIENCE</p>
-          <p class="content-detail">Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--End Services -->
-  <!-- Team section -->
-  <div id="team">
-    <div class="container">
-      <div class="description-top">
-        <h2 id="team-title">MEET OUR BEAUTIFUL TEAM</h2>
-        <div class="underline u-team"></div>
-        <p id="team-detail">We are a small team of designers and developers, who help brands with big ideas.</p>
-      </div>
-      <div class="description-main">
-        <div class="team-member">
-          <div class="member-icon"></div>
-          <p class="member-name">ANNE HATHAWAY</p>
-          <p class="member-position">CEO / Marketing Guru</p>
-          <p class="member-detail">Lorem ipsum dolor sit amet,
-    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
-          <div class="member-contact">
-            <a href="#"><img class="member-contact-icon" src="build/images/fb.png"></a>
-            <a href="#"><img class="member-contact-icon" src="build/images/tweeter.png"></a>
-            <a href="#"><img class="member-contact-icon" src="build/images/linkin.png"></a>
-            <a href="#"><img class="member-contact-icon member-contact-icon-last" src="build/images/mail.png"></a>
-          </div>
-        </div>
-        <div class="team-member">
-          <div class="member-icon"></div>
-          <p class="member-name">Kate Upton</p>
-          <p class="member-position">Creative Director</p>
-          <p class="member-detail">Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
-          <div class="member-contact">
-            <a href="#"><img class="member-contact-icon" src="build/images/tweeter.png"></a>
-            <a href="#"><img class="member-contact-icon" src="build/images/linkin.png"></a>
-            <a href="#"><img class="member-contact-icon member-contact-icon-last" src="build/images/mail.png"></a>
-          </div>
-        </div>
-        <div class="team-member">
-          <div class="member-icon"></div>
-          <p class="member-name">Olivia Wilde</p>
-          <p class="member-position">Lead Designer</p>
-          <p class="member-detail">Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
-          <div class="member-contact">
-            <a href="#"><img class="member-contact-icon" src="build/images/fb.png"></a>
-            <a href="#"><img class="member-contact-icon" src="build/images/tweeter.png"></a>
-            <a href="#"><img class="member-contact-icon" src="build/images/linkin.png"></a>
-            <a href="#"><img class="member-contact-icon member-contact-icon-last" src="build/images/mail.png"></a>
-          </div>
-        </div>
-        <div class="team-member">
-          <div class="member-icon"></div>
-          <p class="member-name">Ashley Greene</p>
-          <p class="member-position">SEO / Developer</p>
-          <p class="member-detail">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-          <div class="member-contact">
-            <a href="#"><img class="member-contact-icon" src="build/images/fb.png"></a>
-            <a href="#"><img class="member-contact-icon" src="build/images/tweeter.png"></a>
-            <a href="#"><img class="member-contact-icon member-contact-icon-last" src="build/images/mail.png"></a>
+        <div class="description-main">
+          <div class="grid">
+            <li class="content skill-content content-media">
+              <div class="skill-contact-grap">
+                <img class="content-icon" src="build/images/skill1.png" alt="nothing">
+              </div>
+              <p class="content-title skill-content-title">Web Design</p>
+            </li>
+            <li class="content skill-content content-media">
+              <div class="skill-contact-grap">
+                <img class="content-icon" src="build/images/skill2.png" alt="nothing">
+              </div>
+              <p class="content-title skill-content-title">HTML / CSS</p>
+            </li>
+            <li class="content skill-content content-media">
+              <div class="skill-contact-grap">
+                <img class="content-icon" src="build/images/skill3.png" alt="nothing">
+              </div>
+              <p class="content-title skill-content-title">GRAPHIC DESIGN</p>
+            </li>
+            <li class="content skill-content content-media">
+              <div class="skill-contact-grap">
+                <img class="content-icon" src="build/images/skill4.png" alt="nothing">
+              </div>
+              <p class="content-title skill-content-title">UI / UX</p>
+            </li>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!--End Team section -->
-  <!-- skill section-->
-  <div id="skill">
-    <div class="container">
-      <div class="description-top">
-        <h2 class="skill-title" style="text-indent:0;">WE GOT SKILLS!</h2>
-        <div class="underline u-skill"></div>
-        <p class="skill-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class="description-main">
-        <div class="skill-content">
-          <div class="skill-contact-grap">
-            <img src="build/images/skill1.png" alt="nothing">
-          </div>
-          <p class="skill-content-detail">Web Design</p>
+    <!--End skill section-->
+    <!-- portfolio-->
+    <div class="portfolio">
+      <div class="container">
+        <div class="description-top">
+          <h2 class="section-title portfolio-title">OUR PORTFOLIO</h2>
+          <hr class="underline u-port">
+          <p class="section-detail portfolio-detail"><span>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</span>
+       consectetur, adipisci velit, sed quia non numquam</p>
         </div>
-        <div class="skill-content">
-          <div class="skill-contact-grap">
-            <img src="build/images/skill2.png" alt="nothing">
+        <div class="description-main">
+          <nav>
+            <ul class="portfolio-menu">
+              <li class="portfolio-categories"><a  href="#">ALL</a></li>
+              <li class="portfolio-categories"><a  href="#">WEB</a></li>
+              <li class="portfolio-categories"><a  href="#">APPS</a></li>
+              <li class="portfolio-categories"><a  href="#">ICONS</a></li>
+            </ul>
+          </nav>
+          <div class="grid">
+            <li class="portfolio-works portfolio-works-fisrt content-media-full">
+              <img class="content-icon" src="build/images/Portfolio1.png">
+              <p class="content-figure portfolio-content-figure">Isometric Perspective Mock-Up</p>
+            </li>
+            <li class="portfolio-works portfolio-works-last content-media-full">
+              <img class="content-icon" src="build/images/Portfolio2.png">
+              <p class="content-figure portfolio-content-figure">Time Zone App UI</p>
+            </li>
+            <li class="portfolio-works portfolio-works-fisrt content-media-full">
+              <div><img class="content-icon" src="build/images/Portfolio3.png"></div>
+              <p class="content-figure portfolio-content-figure">Viro Media Players UI</p>
+            </li>
+            <li class="portfolio-works portfolio-works-last content-media-full">
+              <img class="content-icon" src="build/images/Portfolio4.png">
+              <p class="content-figure portfolio-content-figure">Blog / Magazine Flat UI Kit</p>
+            </li>
           </div>
-          <p class="skill-content-detail">HTML / CSS</p>
-        </div>
-        <div class="skill-content">
-          <div class="skill-contact-grap">
-            <img src="build/images/skill3.png" alt="nothing">
-          </div>
-          <p class="skill-content-detail">GRAPHIC DESIGN</p>
-        </div>
-        <div class="skill-content">
-          <div class="skill-contact-grap">
-            <img src="build/images/skill4.png" alt="nothing">
-          </div>
-          <p class="skill-content-detail">UI / UX</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--End skill section-->
-  <!-- portfolio-->
-  <div id="portfolio">
-    <div class="container-out">
-      <div class="description-top">
-        <h2 class="skill-title">OUR PORTFOLIO</h2>
-        <div class="underline u-port"></div>
-        <p class="skill-detail">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
-     consectetur, adipisci velit, sed quia non numquam</p>
-      </div>
-      <div class="description-main-port">
-        <div>
-          <a class="portfolio-categories" href="#">ALL</a>
-          <a class="portfolio-categories" href="#">WEB</a>
-          <a class="portfolio-categories" href="#">APPS</a>
-          <a class="portfolio-categories" href="#">ICONS</a>
-        </div>
-        <div id="portfolio-work-list">
-          <div class="portfolio-works portfolio-works-fisrt">
-            <img src="build/images/Portfolio1.png">
-            <p class="portfolio-work-detail">Isometric Perspective Mock-Up</p>
-          </div>
-          <div class="portfolio-works portfolio-works-last">
-            <img src="build/images/Portfolio2.png">
-            <p class="portfolio-work-detail">Time Zone App UI</p>
-          </div>
-          <div class="portfolio-works portfolio-works-fisrt">
-            <div><img src="build/images/Portfolio3.png"></div>
-            <p class="portfolio-work-detail">Viro Media Players UI</p>
-          </div>
-          <div class="portfolio-works portfolio-works-last">
-            <img src="build/images/Portfolio4.png">
-            <p class="portfolio-work-detail">Blog / Magazine Flat UI Kit</p>
-          </div>
-        </div>
-        <form>
-          <div class="big-button btn-port">
-            <input type="button" class="btn btn-port-color" value="LOAD MORE PROJECTS">
-            <div class="btn-alpha-color btn-port-alpha-color"></div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-  <!--End portfolio -->
-  <!-- about section-->
-  <div id="testimonial" >
-    <div class="container">
-      <div class="description-top">
-        <h2 class="skill-title test-title">WHAT POEPLE SAY ABOUT US</h2>
-        <div class="underline u-test"></div>
-        <p class="skill-detail test-detal">Our clients love us!</p>
-      </div>
-      <div class="description-main-test">
-        <div class="testimonial-member testimonial-member-first">
-          <div class="testimonial-member-icon"></div>
-          <p class="testimonial-member-detail">“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
-          <p class="testimonial-member-name">Chanel Iman</p>
-          <p class="testimonial-member-position">CEO of Pinterest</p>
-        </div>
-        <div class="testimonial-member testimonial-member-last">
-          <div class="testimonial-member-icon"></div>
-          <p class="testimonial-member-detail">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
-          <p class="testimonial-member-name">ADRIANA LIMA</p>
-          <p class="testimonial-member-position">Founder of Instagram</p>
-        </div><div class="testimonial-member testimonial-member-first">
-          <div class="testimonial-member-icon"></div>
-          <p class="testimonial-member-detail">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
-          <p class="testimonial-member-name">ANNE HATHAWAY</p>
-          <p class="testimonial-member-position">Lead Designer at Behance</p>
-        </div><div class="testimonial-member testimonial-member-last">
-          <div class="testimonial-member-icon"></div>
-          <p class="testimonial-member-detail">“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”</p>
-          <p class="testimonial-member-name">EMMA STONE</p>
-          <p class="testimonial-member-position">Co-Founder of Shazam</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--End about section -->
-  <!-- contact section-->
-  <div id="contact">
-    <div class="container">
-      <div class="description-top">
-        <h2 class="skill-title contact-title">GET IN TOUCH</h2>
-        <div class="underline u-contact"></div>
-        <p class="skill-detal contact-detail">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
-      </div>
-      <div class="description-main-contact">
-        <form>
-          <div id="form">
-            <div class="wrap-label form-left">
-              <input class="form-info name" type="text">
-              <label class="first">Your Name</label>
+          <form>
+            <div class="big-button btn-port">
+              <input type="button" class="btn btn-port-color" value="LOAD MORE PROJECTS">
+              <div class="btn-shadow btn-shadow-port-color"></div>
             </div>
-            <div class="wrap-label form-right">
-              <input class="form-info email" type="text">
-              <label class="second">Your Email</label>
-            </div>
-          </div>
-          <div class="warp-textarea">
-            <textarea class="textarea"></textarea>
-            <label class="third">Your Message</label>
-          </div>
-          <div class="big-button btn-contact">
-            <input type="button" class="btn btn-contact-color" value="SEND MESSAGE">
-            <div class="btn-alpha-color btn-contact-alpha-color"></div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
-  <!--End  contact section-->
+    <!--End portfolio -->
+    <!-- about section-->
+    <section class="testimonial" >
+      <div class="container">
+        <div class="description-top">
+          <h2 class="content-title test-title">WHAT POEPLE SAY ABOUT US</h2>
+          <div class="underline u-test"></div>
+          <p class="content-detail test-detail">Our clients love us!</p>
+        </div>
+        <div class="description-main">
+          <div class="grid">
+            <li class="testimonial-content testimonial-content-first content-media-full">
+              <div class="testimonial-icon"><img class="content-icon" src="Build/images/member.png" alt="a person"></div>
+              <div class="testimonial-member">
+                <p class="testimonial-detail">“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+                <p class="content-title testimonial-name">Chanel Iman</p>
+                <p class="section-detail testimonial-position">CEO of Pinterest</p>
+              </div>
+            </li>
+            <li class="testimonial-content testimonial-content-last content-media-full">
+              <div class="testimonial-icon"><img class="content-icon" src="Build/images/member.png" alt="a person"></div>
+              <div class="testimonial-member">
+                <p class="testimonial-detail">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
+                <p class="content-title testimonial-name">ADRIANA LIMA</p>
+                <p class="section-detail testimonial-position">Founder of Instagram</p>
+              </div>
+            </li>
+            <li class="testimonial-content testimonial-content-first content-media-full">
+              <div class="testimonial-icon"><img class="content-icon" src="Build/images/member.png" alt="a person"></div>
+              <div class="testimonial-member">
+                <p class="testimonial-detail">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
+                <p class="content-title testimonial-name">ANNE HATHAWAY</p>
+                <p class="section-detail testimonial-position">Lead Designer at Behance</p>
+              </div>
+            </li>
+            <li class="testimonial-content testimonial-content-last content-media-full">
+              <div class="testimonial-icon"><img class="content-icon" src="Build/images/member.png" alt="a person"></div>
+              <div class="testimonial-member">
+                <p class="testimonial-detail">“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”</p>
+                <p class="content-title testimonial-name">EMMA STONE</p>
+                <p class="section-detail testimonial-position">Co-Founder of Shazam</p>
+              </div>
+            </li>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End about section -->
+    <!-- contact section-->
+    <section class="contact">
+      <div class="container">
+        <div class="description-top">
+          <h2 class="section-title contact-title">GET IN TOUCH</h2>
+          <div class="underline u-contact"></div>
+          <p class="section-detail contact-detail">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+        </div>
+        <div class="description-main">
+          <div class="submit">
+            <form>
+              <div class="form">
+                <input class="form-info first content-media-full" type="text" required placeholder="Your Name *">
+                <input class="form-info content-media-full " type="email" required placeholder="Your Email *">
+              </div>
+              <textarea class="textarea content-media-full" placeholder="Your Message *"></textarea>
+              <div class="big-button btn-contact">
+                <input type="button" class="btn btn-contact-color" value="SEND MESSAGE">
+                <div class="btn-shadow btn-shadow-contact-color"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+    <!--End  contact section-->
   <!-- footer section-->
-  <div id="footer">
+  <footer class="footer">
     <div class="container">
-      <div id="footer-detail">
-        <p>Facebook&emsp;&emsp;&ensp;<span>Twitter</span>&emsp;&emsp;&ensp;Google+&emsp;&emsp;&ensp;LinkedIn&emsp;&emsp;&ensp;Behance&emsp;&emsp;&ensp;Dribbble&emsp;&emsp;&ensp;GitHub&emsp;&ensp;&nbsp;</p>
-      </div>
+      <nav class="footer-detail">
+        <ul class="link-list">
+          <li class="link"><a href="#">Facebook</a></li>
+          <li class="link"><a href="#">Twitter</a></li>
+          <li class="link"><a href="#">Google+</a></li>
+          <li class="link"><a href="#">LinkedIn</a></li>
+          <li class="link"><a href="#">Behance</a></li>
+          <li class="link"><a href="#">Dribbble</a></li>
+          <li class="link"><a href="#">GitHub</a></li>
+        </ul>
+      </nav>
     </div>
-  </div>
+  </footer>
   <!--End footer section -->
 </div>
 </body>
