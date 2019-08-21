@@ -77,10 +77,10 @@ body{
 }
 .nav-bar-item{
   float: left;
-	color: #fff;
+  color: #fff;
   text-transform: uppercase;
-	padding: 4px 17px;
-	margin-left: 10.56px;
+  padding: 4px 17px;
+  margin-left: 10.56px;
 }
 .nav-bar-list a:first-child li{
 	margin-left: 0;
@@ -96,8 +96,8 @@ body{
   font-family: TitilliumWeb-Bold;
   font-size: 4.216rem;
   line-height: 4.882rem;
-	text-align: center;
-	color: #fff;
+  text-align: center;
+  color: #fff;
 }
 .header-detail-title span{
 	display: block;
@@ -317,9 +317,7 @@ body{
 	overflow: auto;
 	margin-bottom: 5.4rem;
 }
-.skill-contact-grap{
-	height: 16rem;
-}
+
 .skill-content-title{
 	text-transform: uppercase;
 	color: #3c4761;
@@ -566,11 +564,14 @@ textarea{
 		width: 100%;
 	}
 	.content-media{
-		margin-right: 6rem;
+		margin-right: 20rem;
 	}
 	.content-media-full{
 		width: 100%;
 		text-align: center;
+		margin-right: 0;
+	}
+	.content-media-last{
 		margin-right: 0;
 	}
 }

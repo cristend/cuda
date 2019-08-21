@@ -317,9 +317,7 @@ body{
 	overflow: auto;
 	margin-bottom: 5.4rem;
 }
-.skill-contact-grap{
-	height: 16rem;
-}
+
 .skill-content-title{
 	text-transform: uppercase;
 	color: #3c4761;
@@ -566,11 +564,14 @@ textarea{
 		width: 100%;
 	}
 	.content-media{
-		margin-right: 6rem;
+		margin-right: 20rem;
 	}
 	.content-media-full{
 		width: 100%;
 		text-align: center;
+		margin-right: 0;
+	}
+	.content-media-last{
 		margin-right: 0;
 	}
 }
